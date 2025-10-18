@@ -7,10 +7,10 @@ if (!isset($_SESSION['logged_in']) || $_SESSION['logged_in'] !== true) {
   exit();
 }
 
-$lhost = 'localhost';
-$dbuser = 'root';
-$pass = '';
-$db = 'citwebsite';
+$lhost = 'sql300.infinityfree.com';
+$dbuser = 'if0_40184676';
+$pass = 'ejikegoodness01';
+$db = 'if0_40184676_citwebsite';
 
 $connection = mysqli_connect($lhost, $dbuser, $pass, $db);
 
@@ -143,7 +143,7 @@ $student_result = mysqli_fetch_assoc($results_result);
       </button>
       <ul>
         <li><a href="dashboard.php" class="dashboard-link active">👤 <?php echo htmlspecialchars($firstName); ?></a></li>
-        <li><a href="home.php">Home</a></li>
+        <li><a href="index.php">Home</a></li>
         <li><a href="announcements.php">Announcements</a></li>
         <li><a href="events.php">Events</a></li>
         <li><a href="timetable.php">Timetable</a></li>
@@ -213,7 +213,7 @@ $student_result = mysqli_fetch_assoc($results_result);
   </section>
 
   <div style="text-align:center;margin:40px 0;">
-    <a href="home.php" class="btn-view" style="text-decoration:none;display:inline-block;">⬅️ Back to Home</a>
+    <a href="index.php" class="btn-view" style="text-decoration:none;display:inline-block;">⬅️ Back to Home</a>
   </div>
 
   <footer>

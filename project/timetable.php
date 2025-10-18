@@ -35,7 +35,7 @@ $firstName = explode(' ', $username)[0]; // Get only first name
       </button>
       <ul>
         <li><a href="dashboard.php" class="dashboard-link">👤 <?php echo htmlspecialchars($firstName); ?></a></li>
-        <li><a href="home.php">Home</a></li>
+        <li><a href="index.php">Home</a></li>
         <li><a href="announcements.php">Announcements</a></li>
         <li><a href="events.php">Events</a></li>
         <li><a href="timetable.php" class="active">Timetable</a></li>
@@ -284,8 +284,8 @@ $firstName = explode(' ', $username)[0]; // Get only first name
           <p style="font-weight:bold;margin-top:10px;">- Uche, 200 Level</p>
         </div>
         <div style="flex:1 1 250px;min-width:220px;background:#fff;border-radius:10px;box-shadow:0 2px 8px rgba(0,0,0,0.07);padding:25px 18px;">
-          <p>“The printable timetable is so convenient.”</p>
-          <p style="font-weight:bold;margin-top:10px;">- Maryam, 300 Level</p>
+          <p>“I know when my eaxm starts and when and the courses i have each day, Thanks to this website board.”</p>
+          <p style="font-weight:bold;margin-top:10px;">- Maryann, 300 Level</p>
         </div>
         <div style="flex:1 1 250px;min-width:220px;background:#fff;border-radius:10px;box-shadow:0 2px 8px rgba(0,0,0,0.07);padding:25px 18px;">
           <p>“I like that I can check my schedule on my phone.”</p>

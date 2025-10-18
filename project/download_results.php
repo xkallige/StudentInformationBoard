@@ -7,10 +7,10 @@ if (!isset($_SESSION['logged_in']) || $_SESSION['logged_in'] !== true) {
   exit();
 }
 
-$lhost = 'localhost';
-$dbuser = 'root';
-$pass = '';
-$db = 'citwebsite';
+$lhost = 'sql300.infinityfree.com';
+$dbuser = 'if0_40184676';
+$pass = 'ejikegoodness01';
+$db = 'if0_40184676_citwebsite';
 
 $connection = mysqli_connect($lhost, $dbuser, $pass, $db);
 

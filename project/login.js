@@ -54,3 +54,25 @@ function showForm(tabName) {
     signInTab.classList.remove('active');
   }
 }
+// ===== ADMIN Form Toggle (Admin Login / Admin Sign Up) =====
+const adminLoginTab = document.getElementById("adminLoginTab");
+const adminSignUpTab = document.getElementById("adminSignUpTab");
+const adminLoginForm = document.getElementById("adminLoginForm");
+const adminSignUpForm = document.getElementById("adminSignUpForm");
+
+if (adminLoginTab && adminSignUpTab && adminLoginForm && adminSignUpForm) {
+  adminLoginTab.addEventListener("click", () => {
+    adminLoginTab.classList.add("active");
+    adminSignUpTab.classList.remove("active");
+    adminLoginForm.style.display = "block";
+    adminSignUpForm.style.display = "none";
+  });
+
+  adminSignUpTab.addEventListener("click", () => {
+    adminSignUpTab.classList.add("active");
+    adminLoginTab.classList.remove("active");
+    adminSignUpForm.style.display = "block";
+    adminLoginForm.style.display = "none";
+  });
+}
+

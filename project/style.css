@@ -227,6 +227,10 @@ header {
     margin: 0;
     overflow: hidden;
   }
+  .logo {
+    font-size: 0.9em;
+    text-align: center;
+  }
   .navbar ul.show-nav {
     display: flex; /* Show when toggled */
   }

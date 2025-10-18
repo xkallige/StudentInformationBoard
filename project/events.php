@@ -35,7 +35,7 @@ $firstName = explode(' ', $username)[0]; // Get only first name
       </button>
       <ul>
         <li><a href="dashboard.php" class="dashboard-link">👤 <?php echo htmlspecialchars($firstName); ?></a></li>
-        <li><a href="home.php">Home</a></li>
+        <li><a href="index.php">Home</a></li>
         <li><a href="announcements.php">Announcements</a></li>
         <li><a href="events.php" class="active">Events</a></li>
         <li><a href="timetable.php">Timetable</a></li>
